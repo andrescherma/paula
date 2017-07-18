@@ -1,0 +1,27 @@
+{
+  "name": "site_paula",
+  "version": "1.0.0",
+  "description": "site da artista visual paula chimanovitch",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/andrescherma/paula.git"
+  },
+  "author": "Andre Scherma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrescherma/paula/issues"
+  },
+  "homepage": "https://github.com/andrescherma/paula#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}
