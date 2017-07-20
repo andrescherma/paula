@@ -1,1 +1,7 @@
-static/node_modules
+static/node_modules/*
+static/media/*
+
+**/__pycache__/*
+/**/.DS_Store
+
+db.sqlite3
