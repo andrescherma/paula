@@ -12,5 +12,6 @@ def serie(request, serie_id):
 	return render(request, 'content/serie.jade')
 
 def view_work (request, work_id):
-	return render(request, 'content/serie.jade')
+	return render(request, 'content/view_work.jade')
+
 
