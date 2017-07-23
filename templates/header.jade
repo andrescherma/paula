@@ -1,0 +1,21 @@
+header
+	h1
+		| Paula Chimanovitch
+
+	button
+		| Hamb
+
+	nav
+		ul
+			li
+				a(href='{% url "content:works" %}')
+					| Obras
+			li
+				a(href='{% url "content:processes" %}')
+					| Processos
+			li
+				a(href='{% url "about" %}')
+					| Sobre Paula
+			li
+				a(href='{% url "contact" %}')
+					| Contato
