@@ -1,4 +1,7 @@
+-load static from staticfiles
+
 header
+	img(scr="{% static 'img/header_img.jpg' %}")
 	h1
 		| Paula Chimanovitch
 
@@ -8,14 +11,14 @@ header
 	nav
 		ul
 			li
-				a(href='{% url "content:works" %}')
+				a.nav-btn(href='{% url "content:works" %}')
 					| Obras
 			li
-				a(href='{% url "content:processes" %}')
+				a.nav-btn(href='{% url "content:processes" %}')
 					| Processos
 			li
-				a(href='{% url "about" %}')
+				a.nav-btn(href='{% url "about" %}')
 					| Sobre Paula
 			li
-				a(href='{% url "contact" %}')
+				a.nav-btn(href='{% url "contact" %}')
 					| Contato

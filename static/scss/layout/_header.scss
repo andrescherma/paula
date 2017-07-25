@@ -1,0 +1,31 @@
+header {
+	width: 100%;
+	max-height: 150px;
+
+	nav {
+		min-width: 65%;
+		max-width: 90%;
+		position: relative;
+		x-origin: 50%;
+		y-origin: 50%;
+		transform: 50% 0;
+	}
+}
+
+.nav-btn {
+	width: 25%;
+	height: 44px;
+	background-color: $navBtnColor;
+
+	.selected {
+		background-color: $navBtnColorSelected;
+	}
+
+	:first-child {
+		border-radius-left: 7% 0 0 7%;
+	}
+
+	:last-child {
+		border-radius: 0 7% 7% 0;
+	}
+}
