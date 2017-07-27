@@ -6,9 +6,9 @@ header {
 		min-width: 65%;
 		max-width: 90%;
 		position: relative;
-		x-origin: 50%;
-		y-origin: 50%;
-		transform: 50% 0;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, 0);
 	}
 }
 
